@@ -9,7 +9,7 @@ class Dzaimp3 < Formula
   def install
     ENV["GOPATH"] = buildpath
     ENV["GO111MODULE"] = "on"
-    ENV["GOFLAGS"] = "-mod=vendor"
+    ENV["GOFLAGS"] = "-mod=mod"
     ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
     (buildpath/"src/github.com/thaidzai285/dzai-mp3-crawler-service").install buildpath.children
     cd "src/github.com/thaidzai285/dzai-mp3-crawler-service" do
