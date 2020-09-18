@@ -13,7 +13,7 @@ class Dzaimp3 < Formula
     ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
     (buildpath/"src/github.com/thaidzai285/dzai-mp3-crawler-service").install buildpath.children
     cd "src/github.com/thaidzai285/dzai-mp3-crawler-service" do
-      system "go", "build", "-o", bin/"dzaimp3", "."
+      system "go", "build", "-o", bin/"dzaimp3_download", "."
     end
   end
 
