@@ -2,7 +2,7 @@ class Dzaimp3 < Formula
   desc "A simple tools for people love music and terminal."
   homepage "https://github.com/thaidzai285/dzai-mp3-crawler-service"
   url "https://github.com/thaidzai285/dzai-mp3-crawler-service/archive/v0.2-b.tar.gz"
-  sha256 "fa663ffd786dc06d5e1e70d16ccad9b910b95d6330af86560a5fa93c85eef774"
+  sha256 "636647e855187d409853d5546f29298e0993b7dcbaea811fcae9d67d0ee68d30"
 
   depends_on "go"
 
